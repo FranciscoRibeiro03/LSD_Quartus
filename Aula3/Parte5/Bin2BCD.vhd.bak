@@ -1,0 +1,35 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.all;
+
+entity Bin2BCD is
+    port(bin : in  std_logic_vector(3 downto 0);
+	      bcd : out std_logic_vector(4 downto 0));
+end Bin2BCD;
+
+architecture Behavioral of Bin2BCD is
+
+    signal outAux : std_logic_vector(7 downto 0);
+	 
+begin
+
+    with bin select
+	     outAux <= X"00" when X"0",
+		            X"01" when X"1",
+		            X"02" when X"2",
+		            X"03" when X"3",
+		            X"04" when X"4",
+		            X"05" when X"5",
+		            X"06" when X"6",
+		            X"07" when X"7",
+		            X"08" when X"8",
+		            X"09" when X"9",
+		            X"10" when X"A",
+		            X"11" when X"B",
+		            X"12" when X"C",
+		            X"13" when X"D",
+		            X"14" when X"E",
+		            X"15" when X"F";
+						
+    bcd <= outAux(4 downto 0));
+						
+end Behavioral;

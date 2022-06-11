@@ -1,0 +1,59 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/004_Escola/UA/Disciplinas/LSD/Quartus/Aula1/Parte1/simulation/qsim
+vGateDemo
+Z1 !s110 1647337244
+!i10b 1
+!s100 DmaP<lOn3o6a[f<`WC3[R1
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IIn^62hF_a=gL?E83digZ23
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1647337241
+8GateDemo.vo
+FGateDemo.vo
+!i122 0
+L0 32 72
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1647337244.000000
+!s107 GateDemo.vo|
+!s90 -work|work|GateDemo.vo|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+n@gate@demo
+vGateDemo_vlg_vec_tst
+R1
+!i10b 1
+!s100 >K:S8Rg>Yk]2[OQ>he`P83
+R2
+IJnIKD;Ynl4f^gS:eTX5D82
+R3
+R0
+w1647337240
+8GateDemo.vwf.vt
+FGateDemo.vwf.vt
+!i122 1
+L0 30 38
+R4
+r1
+!s85 0
+31
+R5
+!s107 GateDemo.vwf.vt|
+!s90 -work|work|GateDemo.vwf.vt|
+!i113 1
+R6
+R7
+n@gate@demo_vlg_vec_tst

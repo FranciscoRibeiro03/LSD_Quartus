@@ -1,0 +1,20 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.all;
+
+entity FullAdder is
+    port(a, b, cin : in  std_logic;
+	      s, cout   : out std_logic);
+end FullAdder;
+
+architecture BehavEquations of FullAdder is
+    
+	 signal AxnorB : std_logic;
+	 
+begin
+
+    AxnorB <= a xnor b;
+
+    s <= cin xnor AxnorB;
+	 cout <= (cin and AxnorB) or (a and b);
+
+end BehavEquations;

@@ -1,0 +1,24 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.all;
+
+entity SeqDetector is
+    port(CLOCK_50 : in  std_logic;
+	      SW       : in  std_logic_vector(0 downto 0);
+	      LEDG     : out std_logic_vector(0 downto 0));
+end SeqDetector;
+
+architecture Structural of SeqDetector is
+    signal s_clk : std_logic;
+begin
+    clk_divider : entity work.ClkDividerN(Behavioral)
+	               generic map(divFactor => x"0EE6B280")
+						port map(clkIn  => CLOCK_50,
+						         clkOut => s_clk);
+									
+   fsm : entity work.SeqDetFSM(MealyArch)
+	      port map(reset => '0',
+			         clk => s_clk,
+						Xin => SW(0),
+						Yout => LEDG(0));
+						
+end Structural;

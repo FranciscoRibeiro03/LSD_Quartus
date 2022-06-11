@@ -1,0 +1,54 @@
+# do DrinksMachine_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying /opt/intelFPGA_lite/20.1/modelsim_ase/linuxaloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {/mnt/Data/004_Escola/UA/Disciplinas/LSD/Quartus/Aula8/Parte2/DrinksFSM.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:02:59 on May 24,2022
+# vcom -reportprogress 300 -93 -work work /mnt/Data/004_Escola/UA/Disciplinas/LSD/Quartus/Aula8/Parte2/DrinksFSM.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity DrinksFSM
+# -- Compiling architecture Behavioral of DrinksFSM
+# End time: 11:02:59 on May 24,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# 
+# stdin: <EOF>
+vcom -reportprogress 300 -work work /mnt/Data/004_Escola/UA/Disciplinas/LSD/Quartus/Aula8/Parte2/DrinksFSM_Tb.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:03:03 on May 24,2022
+# vcom -reportprogress 300 -work work /mnt/Data/004_Escola/UA/Disciplinas/LSD/Quartus/Aula8/Parte2/DrinksFSM_Tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity DrinksFSM_Tb
+# -- Compiling architecture Stimulus of DrinksFSM_Tb
+# -- Loading entity DrinksFSM
+# End time: 11:03:03 on May 24,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.drinksfsm_tb(stimulus)
+# vsim work.drinksfsm_tb(stimulus) 
+# Start time: 11:03:06 on May 24,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.drinksfsm_tb(stimulus)
+# Loading work.drinksfsm(behavioral)
+add wave -position end  sim:/drinksfsm_tb/s_reset
+add wave -position end  sim:/drinksfsm_tb/s_clk
+add wave -position end  sim:/drinksfsm_tb/s_V
+add wave -position end  sim:/drinksfsm_tb/s_C
+add wave -position end  sim:/drinksfsm_tb/s_abrir
+add wave -position end  sim:/drinksfsm_tb/s_state
+run
+# End time: 11:03:56 on May 24,2022, Elapsed time: 0:00:50
+# Errors: 0, Warnings: 0

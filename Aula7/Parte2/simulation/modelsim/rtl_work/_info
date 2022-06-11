@@ -1,0 +1,97 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/mnt/Data/004_Escola/UA/Disciplinas/LSD/Quartus/Aula7/Parte2/simulation/modelsim
+Ecounterupdown4
+Z1 w1652171944
+Z2 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 0
+R0
+Z5 8/mnt/Data/004_Escola/UA/Disciplinas/LSD/Quartus/Aula7/Parte2/CounterUpDown4.vhd
+Z6 F/mnt/Data/004_Escola/UA/Disciplinas/LSD/Quartus/Aula7/Parte2/CounterUpDown4.vhd
+l0
+L5 1
+V^XegJ4iEU2R7zX22zGeN10
+!s100 LP]F[He:E4Om?BjkDNHoX2
+Z7 OV;C;2020.1;71
+31
+Z8 !s110 1652172343
+!i10b 1
+Z9 !s108 1652172343.000000
+Z10 !s90 -reportprogress|300|-93|-work|work|/mnt/Data/004_Escola/UA/Disciplinas/LSD/Quartus/Aula7/Parte2/CounterUpDown4.vhd|
+Z11 !s107 /mnt/Data/004_Escola/UA/Disciplinas/LSD/Quartus/Aula7/Parte2/CounterUpDown4.vhd|
+!i113 1
+Z12 o-93 -work work
+Z13 tExplicit 1 CvgOpt 0
+Abehavioral
+R2
+R3
+R4
+Z14 DEx4 work 14 counterupdown4 0 22 ^XegJ4iEU2R7zX22zGeN10
+!i122 0
+l14
+L12 17
+VmlBIaQXBKEOzN_8@jaDFX2
+!s100 OiVlIKG6WXKmoWFJH_@062
+R7
+31
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Ecounterupdown4_tb
+Z15 w1652172296
+R3
+R4
+!i122 1
+R0
+Z16 8/mnt/Data/004_Escola/UA/Disciplinas/LSD/Quartus/Aula7/Parte2/CounterUpDown4_Tb.vhd
+Z17 F/mnt/Data/004_Escola/UA/Disciplinas/LSD/Quartus/Aula7/Parte2/CounterUpDown4_Tb.vhd
+l0
+L4 1
+VbSKBKi7jASFARE@ZbLiiS2
+!s100 z6e?:W]5enl`OIiai7hDU1
+R7
+32
+Z18 !s110 1652172348
+!i10b 1
+Z19 !s108 1652172348.000000
+Z20 !s90 -reportprogress|300|-work|work|/mnt/Data/004_Escola/UA/Disciplinas/LSD/Quartus/Aula7/Parte2/CounterUpDown4_Tb.vhd|
+!s107 /mnt/Data/004_Escola/UA/Disciplinas/LSD/Quartus/Aula7/Parte2/CounterUpDown4_Tb.vhd|
+!i113 1
+Z21 o-work work
+R13
+Astimulus
+R2
+R14
+R3
+R4
+DEx4 work 17 counterupdown4_tb 0 22 bSKBKi7jASFARE@ZbLiiS2
+!i122 1
+l10
+L7 28
+Vb7_CmRP6=@O[fB0jIZ4<k3
+!s100 Ge@CbZJ=2o5j`:AVTQ4GC0
+R7
+32
+R18
+!i10b 1
+R19
+R20
+Z22 !s107 /mnt/Data/004_Escola/UA/Disciplinas/LSD/Quartus/Aula7/Parte2/CounterUpDown4_Tb.vhd|
+!i113 1
+R21
+R13
